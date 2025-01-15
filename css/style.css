@@ -1,0 +1,156 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    font-family: "montserrat";
+    background-image: url(/img/background-image03.jpg);
+    background-size: cover;
+}
+
+*{
+    box-sizing: border-box;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+button{
+    outline: none;
+    border: none;
+}
+input{
+    outline: none;
+    border: none;
+}
+.main{
+    width: 100%;
+    height: 768px;
+    position: relative;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 30px;
+    background-color: #10003d;
+    box-shadow: 2px 2px 20px rgba(0,0,0,0.329);
+    z-index: 1;
+    width: 100%;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+}
+nav ul{
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+nav ul li{
+    height: 40px;
+    line-height: 41px;
+    margin: 8px;
+    padding: 0px 7px;
+    display: flex;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: #80e3b5;
+    letter-spacing: 1px;
+    transition: 0.3s ease-in-out;
+
+}
+nav ul li a:hover{
+    border-radius: 2px;
+    background-color: #5cfdb2;
+    color: #10003d;
+    box-shadow:2px 2px 20px rgba(0,0,0,0.329); 
+}
+.active{
+    background-color: #5cfdb2;
+    color: #10003d; 
+    box-shadow:2px 2px 20px rgba(0,0,0,0.329);
+}
+nav .menu-btn{
+    display: none;
+}
+
+/* **********Header Content**************** */
+.header-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+}
+.header-img{
+    width: 500px;
+    height: 400px;
+    margin: 20px;
+}
+.header-img img{
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    object-position: center;
+}
+.header-text{
+    width: 500px;
+    margin: 20px;
+}
+.header-text h1{
+    font-size: 3.5rem;
+    line-height: 55px;
+    color: #ffffff;
+    letter-spacing: 1px;
+    font-weight: 700;
+    margin: 0px;
+}
+.header-text p{
+    font-size: 0.9rem;
+    color: rgb(235, 235, 235);
+}
+.header-text span{
+    color: #5cfdb2;
+    text-decoration: underline;
+}
+/* ***********Header Button******************** */
+.header-btn{
+    width: 120px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #80e3b5; 
+    box-shadow:2px 2px 20px rgba(1,141,83.514);
+    text-transform: uppercase;
+    transition: 0.3s ease-in-out;
+    margin-top: 20px;
+    border-radius: 3px;
+}
+
+.header-btn:hover{
+    background-color: #5cfdb2;
+}
+
+/*********About Section******************/
+.about{
+    background-size: 1000px;
+}
+.about-heading{
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.about-heading h2{
+    line-height: 55px;
+    font-size: 2.2rem;
+    color: #ffffff;
+    letter-spacing: 1px;
+    font-weight: 700;
+}
